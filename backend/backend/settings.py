@@ -150,18 +150,6 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "https://zomozon-13348.web.app", 
 ]
-CORS_ALLOW_HEADERS = [
-    'content-type',
-    'authorization',
-]
 
-CORS_ALLOW_METHODS = [
-    'GET',
-    'POST',
-    'PUT',
-    'PATCH',
-    'DELETE',
-    'OPTIONS',
-]
 CORS_ALLOW_HEADERS = list(default_headers)  # <- import this
 CORS_ALLOW_METHODS = list(default_methods)
