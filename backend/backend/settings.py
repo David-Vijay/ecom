@@ -148,5 +148,5 @@ DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
 }
 CORS_ALLOWED_ORIGINS = [
-    "https://zomozon-13348.web.app/", 
+    "https://zomozon-13348.web.app", 
 ]
